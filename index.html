@@ -17,18 +17,65 @@
     <script src="js/readWriteJson.js"></script>
     <script src="applicationData.js"></script>
     <script src="js/jstorage.js"></script>
-      <script src="js/jquery.blockUI.js"></script>
+    <script src="js/jquery.blockUI.js"></script>
 
     <script src="js/jsonInResourses.js"></script>
+    
+    <!-- PhotoSwipe-->
+    <link rel="stylesheet" href="js/PhotoSwipe/photoswipe.css"> 
+    <link rel="stylesheet" href="js/PhotoSwipe/default-skin/default-skin.css"> 
+    <script src="js/PhotoSwipe/photoswipe.min.js"></script> 
+    <script src="js/PhotoSwipe/photoswipe-ui-default.min.js"></script> 
+    <script src="js/PhotoSwipe/initPhotoSwipe.js"></script> 
+    
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
     
     <script src="js/events.js"></script>
+    
+    <style>
+    /*.blockUI{display:none !important;}*/
+    </style>
 </head>
 
 <body>
     <div data-role="header" data-position="fixed" class="classMenu">      
         <span class="top-menu-icon" onclick="onClickButtonMenu()">Menu</span>
         <div class="classDropdownList"></div>
+    </div>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">            
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share hidden" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs hidden" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom hidden" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="container"></div>
     <script src="js/MobileView.js"></script>
