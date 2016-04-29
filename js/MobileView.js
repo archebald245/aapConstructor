@@ -6,7 +6,7 @@ function reactRender() {
     
     function onYouTubeIframeAPIReady(element, id){
               var player = new YT.Player(element,{
-                   heidth: '100%',
+                   heidth: 'auto',
                    width: '100%',
                    videoId: id,
                    events: {
