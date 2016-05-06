@@ -203,7 +203,7 @@ function getPositionMenu(positionMenu)
         return '.classDropdownList';
         
 
-        case 'center-left':
+        case 'left-swipe':
         $('span.menu-icon').hide();
         $('.classMenu').hide();
         $('.classSwipeDropList') .addClass('side-menu-left');
@@ -274,7 +274,7 @@ function getPositionMenu(positionMenu)
         return '.classDropdownList';
         
 
-        case 'center-right':
+        case 'right-swipe':
         $('span.menu-icon').hide()
          $('.classMenu').hide();
          $('.classSwipeDropList').addClass('side-menu-right');
