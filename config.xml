@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<widget xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="com.phonegap.testmichaelapp" version="0.0.1">
+<widget xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="testmichaelapp" version="0.0.2">
   <name>TestMichaelApp</name>
   <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
   <plugin name="com.fantasyskiracer.inappbrowser" spec="1.0.4" source="pgb" />
