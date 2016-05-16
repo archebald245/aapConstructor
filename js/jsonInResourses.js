@@ -163,7 +163,7 @@ function goToPage(index) {
     
     $("body").attr("style", pageStyles);
     
-    
+    initGallaryClick();
 }
 
 function deleteResources(){
