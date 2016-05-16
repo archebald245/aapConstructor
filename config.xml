@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<widget xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="com.phonegap.com.archebald.app" version="0.0.1">
+<widget xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="app" version="0.0.1">
   <name>Archebald</name>
-  <description>lorem ipsum dolor</description>
+  <description>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</description>
   <plugin name="com.fantasyskiracer.inappbrowser" spec="1.0.4" source="pgb" />
   <plugin name="org.apache.cordova.file-transfer" spec="0.5.0" source="pgb" />
   <plugin name="org.apache.cordova.network-information" spec="0.2.7" source="pgb" />
