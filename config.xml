@@ -22,5 +22,5 @@
     <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
   </feature>
   <gap:platform name="winphone" />
-  <preference name="orientation" value="default" />
+  <preference name="orientation" value="landscape" />
 </widget>
