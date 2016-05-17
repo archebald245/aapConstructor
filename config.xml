@@ -21,6 +21,7 @@
   <feature name="FileTransfer">
     <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
   </feature>
-  <gap:platform name="winphone" />
+  <gap:platform name="android" />
+  <gap:platform name="ios" />
   <preference name="orientation" value="landscape" />
 </widget>
