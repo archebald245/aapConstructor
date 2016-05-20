@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<widget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="com.phonegap.eee.eeeeee.ee" version="0.0.1">
-  <name>Eeeeeee</name>
+<widget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="eeeeeeee" version="0.0.1">
+  <name>Eeeeeee11111</name>
   <description>eeeeeeeeeeeeeeeeeee</description>
   <plugin name="com.fantasyskiracer.inappbrowser" spec="1.0.4" source="pgb" />
   <plugin name="org.apache.cordova.file-transfer" spec="0.5.0" source="pgb" />
