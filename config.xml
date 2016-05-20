@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<widget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="com.phonegap.rrrrrrrrrrr" version="0.0.1">
+<widget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" id="rrrrrrrrrrr" version="0.0.1">
   <name>Rrrrr</name>
   <description>rrrrrrrrr</description>
   <plugin name="com.fantasyskiracer.inappbrowser" spec="1.0.4" source="pgb" />
@@ -21,6 +21,7 @@
   <feature name="FileTransfer">
     <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
   </feature>
+  <gap:platform name="android" />
   <gap:platform name="winphone" />
   <preference name="orientation" value="portrait" />
 </widget>
