@@ -39,5 +39,5 @@ Software testing can be conducted as soon as executable software (even if partia
   </feature>
   <gap:platform name="android" />
   <gap:platform name="ios" />
-  <preference name="orientation" value="default" />
+  <preference name="orientation" value="portrait" />
 </widget>
